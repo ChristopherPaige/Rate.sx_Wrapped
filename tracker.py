@@ -3,7 +3,7 @@ import os
 from custom_query import exe
 
 def crypto_tracker(command, **kwargs):
-    print(command)
+    return command
     
 crypto_tracker(os.system("curl rate.sx"))
 
