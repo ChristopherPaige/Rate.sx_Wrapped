@@ -7,9 +7,9 @@ def crypto_tracker(command, **kwargs):
     
 crypto_tracker(os.system("curl rate.sx"))
 
-exe(
+exe (
     "curl rate.sx/eth", 
-    "curl rate.sx/btc" , 
+    "curl rate.sx/btc", 
     "curl rate.sx/ada", 
     "curl rate.sx/link"
 )
